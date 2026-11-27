@@ -1,0 +1,28 @@
+{
+  "name": "levelup",
+  "version": "1.0.0",
+  "description": "API REST de Level Up, l'app de veille tech quotidienne",
+  "homepage": "https://github.com/AssiarDev/LevelUp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AssiarDev/LevelUp.git"
+  },
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.1.0",
+    "@types/supertest": "^7.2.1",
+    "supertest": "^7.3.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.2"
+  }
+}
