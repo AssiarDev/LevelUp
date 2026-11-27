@@ -10,8 +10,12 @@
     "target": "esnext",
     "lib": ["esnext"],
     "types": ["node"],
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true,
 
     // Other Outputs
+    // Type-check only by default: emitting is done by tsconfig.build.json
+    "noEmit": true,
     "sourceMap": true,
 
     // Stricter Typechecking Options
